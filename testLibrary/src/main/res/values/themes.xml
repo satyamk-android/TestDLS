@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MatterSales" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="headingText">
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <item name="android:textColor">@color/black_2C2C2C</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="subHeadingText">
+        <item name="android:fontFamily">@font/muli_regular</item>
+        <item name="android:textColor">@color/grey_6E6E6E</item>
+        <item name="android:textSize">@dimen/_22ssp</item>
+    </style>
+
+    <style name="doneButtonStyle">
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:paddingStart">@dimen/_40sdp</item>
+        <item name="android:paddingEnd">@dimen/_40sdp</item>
+        <item name="android:paddingBottom">@dimen/_14sdp</item>
+        <item name="android:paddingTop">@dimen/_14sdp</item>
+        <item name="android:background">@drawable/bg_blue_curved</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="cancelButtonStyle">
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <item name="android:textColor">@color/grey_6E6E6E</item>
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/_40sdp</item>
+        <item name="android:paddingEnd">@dimen/_40sdp</item>
+        <item name="android:paddingBottom">@dimen/_14sdp</item>
+        <item name="android:paddingTop">@dimen/_14sdp</item>
+        <item name="android:background">@drawable/bg_grey_curved_stroke</item>
+    </style>
+
+    <style name="pinViewStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSelectHandle">@drawable/bg_blue_curved_stroke</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayExtended">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_12sdp</item>
+        <item name="android:background">@drawable/bg_light_blue_curved</item>
+        <item name="android:backgroundTint">@color/blue_4B78DF</item>
+        <item name="android:tint">@color/blue_4B78DF</item>
+<!--        <item name="srcCompat">@drawable/ic_baseline_add_24</item>-->
+    </style>
+
+<!--    <style name="switchTheme">-->
+<!--        <item name="track">@drawable/custom_switch_track</item>-->
+<!--    </style>-->
+
+    <!--  Transparent dialog -->
+    <style name="DialogTransparent" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>
