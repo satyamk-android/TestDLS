@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btn = findViewById(R.id.cbButton)
 
         btn.setText("My Button")
         btn.setBtnBackground(R.color.red)

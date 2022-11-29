@@ -86,6 +86,7 @@ public class CustomButton : FrameLayout {
 
     override fun onFinishInflate() {
         super.onFinishInflate()
+        backBtn = findViewById(R.id.btnBack)
         configureBtn()
     }
 
