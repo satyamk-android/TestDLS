@@ -77,10 +77,7 @@ public class CustomButton : FrameLayout {
     }
 
     fun setTextBackgroundColor(@ColorInt color: Int) {
-        when (textBackground) {
-//            is ColorDrawable -> (backBtn.background as ColorDrawable).color = color
-            else -> textBackground = ColorDrawable(color)
-        }
+        textBackground = ColorDrawable(color)
     }
 
     fun setBtnBackground(@DrawableRes resId: Int) {
@@ -93,10 +90,13 @@ public class CustomButton : FrameLayout {
     }
 
     private fun configureBtn() {
-        backBtn.background = btnBackground
+        backBtn.background = ContextCompat.getDrawable(context, R.drawable.bg_grey_curved_stroke)
         backBtn.text = mText
-        backBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mTextSize)
-        backBtn.setTextColor(textColors)
+        backBtn.textSize = 22f
+        backBtn.setTextColor(ContextCompat.getColor(context, R.color.grey_6E6E6E))
+        backBtn.setPadding(40, 14, 40, 14)
+        backBtn.setSupportAllCaps(false)
+
     }
 
 

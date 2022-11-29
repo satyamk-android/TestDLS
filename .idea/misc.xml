@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3411458333333333" />
+        <entry key="testLibrary/src/main/res/drawable/abc.xml" value="0.1955" />
+        <entry key="testLibrary/src/main/res/drawable/bg_grey_curved_stroke.xml" value="0.1955" />
         <entry key="testLibrary/src/main/res/layout/attrs.xml" value="0.35520833333333335" />
         <entry key="testLibrary/src/main/res/layout/layout.xml" value="0.35520833333333335" />
       </map>
