@@ -82,4 +82,9 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <declare-styleable name="ActionDoneButton">
+        <attr name="sk_size" format="dimension"/>
+
+    </declare-styleable>
+
 </resources>

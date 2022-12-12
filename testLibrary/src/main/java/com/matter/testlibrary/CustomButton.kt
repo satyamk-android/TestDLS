@@ -91,14 +91,14 @@ public class CustomButton : FrameLayout {
     }
 
     private fun configureBtn() {
-//        backBtn.background = ContextCompat.getDrawable(context, R.drawable.bg_grey_curved_stroke)
-//        backBtn.text = mText
-//        backBtn.textSize = 22f
-//        backBtn.setTextColor(ContextCompat.getColor(context, R.color.grey_6E6E6E))
-//        backBtn.setPadding(40, 14, 40, 14)
-//        backBtn.setSupportAllCaps(false)
+        backBtn.background = ContextCompat.getDrawable(context, R.drawable.bg_grey_curved_stroke)
+        backBtn.text = mText
+        backBtn.textSize = 22f
+        backBtn.setTextColor(ContextCompat.getColor(context, R.color.grey_6E6E6E))
+        backBtn.setPadding(40, 14, 40, 14)
+        backBtn.setSupportAllCaps(false)
 
-        backBtn.setTextAppearance(context, R.style.cancelButtonStyle)
+//        backBtn.setTextAppearance(context, R.style.cancelButtonStyle)
 
 
     }

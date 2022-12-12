@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.matter.testlibrary.CustomButton
-        android:id="@+id/cbButton"
+    <com.matter.testlibrary.ActionDoneButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:id="@+id/btnDone"
+        app:sk_size="@dimen/_14ssp"
+        android:text="Login"/>
 
+    <com.matter.testlibrary.ActionCancelButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
 
-    </com.matter.testlibrary.CustomButton>
+    <com.matter.testlibrary.CircleImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@color/red"
+        app:circle_border_width="@dimen/_2sdp"
+        app:circle_border_color="@color/black"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.matter.testlibrary.CustomCheckbox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/bg_check"
+        android:layout_marginStart="@dimen/_20sdp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
